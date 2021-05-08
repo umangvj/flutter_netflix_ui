@@ -165,19 +165,6 @@ class __ContentHeaderDesktopState extends State<_ContentHeaderDesktop> {
               ),
             ),
           ),
-          Container(
-            height: 500.0,
-            decoration: const BoxDecoration(
-              gradient: LinearGradient(
-                colors: [
-                  Colors.black,
-                  Colors.transparent,
-                ],
-                begin: Alignment.bottomCenter,
-                end: Alignment.topCenter,
-              ),
-            ),
-          ),
           Positioned(
             left: 60.0,
             right: 60.0,
