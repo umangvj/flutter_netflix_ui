@@ -40,16 +40,21 @@ class _ContentHeaderMobile extends StatelessWidget {
             ),
           ),
         ),
-        Container(
-          height: 500.0,
-          decoration: const BoxDecoration(
-            gradient: LinearGradient(
-              colors: [
-                Colors.black,
-                Colors.transparent,
-              ],
-              begin: Alignment.bottomCenter,
-              end: Alignment.topCenter,
+        Positioned(
+          left: 0.0,
+          right: 0.0,
+          bottom: -1.0,
+          child: Container(
+            height: 500.0,
+            decoration: const BoxDecoration(
+              gradient: LinearGradient(
+                colors: [
+                  Colors.black,
+                  Colors.transparent,
+                ],
+                begin: Alignment.bottomCenter,
+                end: Alignment.topCenter,
+              ),
             ),
           ),
         ),
